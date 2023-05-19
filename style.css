@@ -1,0 +1,466 @@
+    @import url('https: //fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    .body {
+        /* font-weight: ;
+    margin: px;
+    padding: ; */
+    }
+    /* logo 1 et 2 */
+    
+    * {
+        padding: 0;
+        margin: 0 -10;
+    }
+    
+    .barre-navig {
+        margin-left: 60px;
+        display: flex;
+        justify-content: center;
+        /* border: solid; */
+        height: ;
+    }
+    
+    .logo-docplanner {
+        margin-top: px;
+        margin: 10px;
+        height: 38px;
+        /* box-sizing: inherit; */
+    }
+    
+    .logo2-docplanne {
+        justify-content: center;
+        display: flex;
+        margin: 10px;
+        align-items: center;
+    }
+    
+    .title11 {
+        font-family: 'roboto';
+        font-size: 50px;
+        margin-left: 50px;
+        display: flex;
+        /* border: solid; */
+    }
+    /* menu navig */
+    
+    .main-header {
+        align-items: center;
+        height: 80px;
+        margin-left: 100px;
+        display: flex;
+        width: 100%;
+        list-style: none;
+        /* border: solid 4px; */
+    }
+    
+    .menu li {
+        margin-left: 50px;
+        bottom: 100px;
+    }
+    
+    .menu {
+        display: flex;
+        list-style: none;
+        margin-left: 500px;
+        justify-content: space-evenly;
+        margin-left: 700px;
+    }
+    
+    .b1 {
+        color: #5dc6b0;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .b2 {
+        color: gray;
+    }
+    
+    .b3 {
+        color: gray;
+    }
+    
+    .h1 {
+        text-align: center;
+    }
+    /* second-section*/
+    
+    .introduction-title {
+        margin-left: 300px;
+        color: #00b39b;
+        font-family: sans-serif;
+        font-size: larger;
+        flex-direction: column;
+    }
+    
+    .header-menu {
+        display: flex;
+        width: 50px;
+        height: 50px;
+    }
+    /* all-brands */
+    
+    .statss {
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* border: solid violet; */
+        justify-content: center;
+    }
+    
+    .we {
+        display: flex;
+        color: #00b39b;
+    }
+    
+    .brands-logos {
+        height: auto 20px;
+        align-items: center;
+        margin: 50px;
+        /* border: solid orangered; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin-left: 100px;
+        flex-direction: row;
+    }
+    /* .all-brands {
+    display: flex;
+    flex-wrap: wrap;
+    border: soli;
+    height: 100px;
+} */
+    
+    .docplanner-header {
+        display: flex;
+        flex-direction padding: 10p;
+        background-color: green;
+    }
+    
+    .introduction {
+        display: inline-block;
+        top: 20px;
+    }
+    
+    .introduction-text {
+        display: flex;
+    }
+    
+    .paname {
+        font-size: 25px;
+        font-family: 'roboto'sans-serif;
+        /* border: solid; */
+        display: flex;
+        justify-content: space-between;
+        margin-left: 70px;
+    }
+    
+    .paragrah1 {
+        border: solid;
+    }
+    /* SECTION GRID */
+    
+    .grid {
+        display: flex;
+        margin: 50px;
+        /* border: solid; */
+        justify-content: center;
+    }
+    
+    .services {
+        width: 40%;
+        height: 100%;
+        padding: 70px;
+        /* border: solid; */
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .service-card {
+        padding: 20px;
+        border-radius: 8px;
+        color: white;
+        margin: 10px;
+        justify-content: space-between;
+    }
+    
+    .hopital-service {
+        align-items: center;
+        /* border: solid; */
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        margin-left: 50px;
+        /* padding: 1.375em 1.25em 0; */
+        padding: 70px;
+    }
+    
+    .mondiale {
+        display: flex;
+        color: rebeccapurple;
+    }
+    
+    .M1 {
+        color: #00b39b;
+        justify-content: left;
+        font-size: 1.625em;
+        flex-direction: column-reverse;
+    }
+    
+    .service-clinique {
+        background-color: #747474;
+        padding: 40px;
+        height: 80%;
+        width: 30%;
+        /* border: solid orange; */
+    }
+    
+    .for-clinic {
+        height: 50%;
+        /* border: solid white; */
+        width: 50%;
+        padding: 50px;
+        font-family: 'roboto';
+        font-size: 25px;
+    }
+    
+    .services-card-patients {
+        font-size: 25px;
+        font-family: 'roboto' sans-serif;
+        background-color: #5dc6b0;
+        width: 80%;
+        height: 80%;
+        padding: 50px;
+    }
+    
+    .services-card-doctors {
+        font-family: 'roboto' sans-serif;
+        font-size: 25px;
+        width: 30%;
+        height: 80%;
+        padding: 50px;
+        /* border: solid magenta; */
+        background-color: #4293db;
+        margin-right: 50px;
+    }
+    
+    .service-card-title {
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .service-card-select {
+        position: absolute;
+        bottom: -500px;
+        text-decoration: none;
+        opacity: 1;
+        transform: translate(0);
+        background-color: ;
+        padding: 10px;
+        border-radius: 5px;
+        display: flex;
+    }
+    
+    .service-card-image {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    
+    .mondiale2 {
+        display: flex;
+        color: #00b39b;
+        justify-content: space-between;
+        margin: ;
+        width: ;
+    }
+    
+    .brands-section_inner {
+        font-size: 16px;
+        box-sizing: inherit;
+        height: 100px;
+        margin-bottom: ;
+        margin: 100px;
+    }
+    /* logo */
+    
+    .gipo {
+        display: inline-block;
+        margin-top: 0;
+        padding: 5px 0 5px 5px;
+        width: 43px;
+        height: 34px;
+    }
+    
+    .img {
+        width: 43px;
+        height: 34px;
+    }
+    
+    .tuotempo {
+        width: 126px;
+        height: 16px;
+        max-width: 100%;
+    }
+    
+    .col-2 {
+        background-color: #e5faf8;
+        background-color: ;
+        /* border: solid magenta; */
+        width: ;
+        float: none;
+        text-align: center;
+    }
+    
+    .with {
+        float: left;
+        box-sizing: inherit;
+        box width: 33%;
+        font-size: 1.625em;
+        color: #00b39b;
+        padding-right: 1em;
+        margin: 0.25em 0.35em;
+    }
+    /* byb */
+    
+    .stats2 {
+        background-color: #e5faf8;
+        background-size: 50vh;
+        background-repeat: no-repeat;
+        background-image: url(/unnamed.jpg);
+        margin: 3.125rem auto 5.5em;
+        /* border: solid violet; */
+    }
+    
+    .seletion_inner1 {
+        zoom: 1;
+        padding: 0 20px;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    .col-2-stats_header {
+        /* border: solid; */
+        justify-content: center;
+    }
+    
+    .the-world {
+        justify-content: center;
+        height: 100px;
+        font-size: 2.125rem;
+        color: #00b39b;
+        width: 100%;
+        display: flex;
+        float: none;
+        max-width: 850px;
+        margin-left: ;
+    }
+    
+    .the-world2 {
+        justify-content: center;
+        display: flex;
+        margin-left: 50px;
+    }
+    
+    .col-2 {
+        display: table;
+        margin-left: 80px;
+    }
+    
+    .grida {
+        align-items: center;
+        margin: 0 -10px;
+        display: block;
+        box-sizing: inherit;
+        background-color: 100px #e5faf8;
+    }
+    
+    .stats_items {
+        /* border: solid; */
+        background-color: #e5faf8;
+        border-radius: 5px;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0);
+        height: 250px;
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .vert-align {
+        display: table;
+        width: 100%;
+        height: 100%;
+        margin-left: 500px;
+    }
+    
+    .offices_header {
+        max-width: 460px;
+        margin: 0 auto 4.175rem;
+        font-size: .875em;
+        text-align: center;
+    }
+    
+    .offices {
+        margin-top: 5.5em;
+        margin-bottom: 5rem;
+    }
+    
+    .selection_inner {
+        zoom: 1;
+        max-width: 1015px;
+        padding: 0 20px;
+        margin: auto;
+        position: relative;
+    }
+    
+    .improve {
+        color: #00b39b;
+        font-family: work sans, arial, sans-serif;
+        font-weight: 300;
+        letter-spacing: -3px;
+    }
+    /*  */
+    
+    .office_image {
+        flex-wrap: wrap;
+        display: block;
+    }
+    
+    .bogota {
+        width: 312px;
+        height: 280px;
+    }
+    
+    .offices-selection_inner {}
+    
+    .offices_header {
+        font-size: 25px;
+        font-family: 'roboto';
+    }
+    
+    .improve1 {
+        font-size: 18px;
+    }
+    
+    .slick-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .slick-track {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .office {
+        /* white-space: -50px; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .fade-elements {}
+    
+    .office_slider {}
+    
+    .office_slider {}
